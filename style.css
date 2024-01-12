@@ -1,0 +1,21 @@
+body {
+    font-family: helvetica;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+
+}
+
+a {
+    padding-right: 30px;
+}
