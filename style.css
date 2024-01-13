@@ -12,6 +12,10 @@ body {
     justify-content: space-between;
     width: 100%;
     position:fixed;
+    border-bottom: 1px solid seashell;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
 
 }
 .nav-logo-img {
@@ -25,4 +29,14 @@ body {
 
 a {
     padding-right: 30px;
+    text-decoration: underline;
+    color: seashell;
+
 }
+
+.banner-img {
+    padding-top: 56px;
+    height: 700px;
+    position: relative;
+}
+
