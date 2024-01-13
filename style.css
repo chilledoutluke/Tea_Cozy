@@ -6,14 +6,21 @@ body {
     font-size: 22px;
 }
 
+
 .navigation {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    position:fixed;
+
+}
+.nav-logo-img {
+    height: 50px;
+    padding-left: 10px;
 }
 
 .nav-list {
     display: flex;
-
 }
 
 a {
