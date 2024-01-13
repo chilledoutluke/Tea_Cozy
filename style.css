@@ -35,10 +35,15 @@ a {
 }
 
 .banner-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 56px;
+    background-size: 1200px;
+    width: 50%;
     height: 700px;
-    width: 1200px;
     position: relative;
+
 }
 
 
@@ -46,7 +51,7 @@ a {
         position: absolute;
         text-align: center;
         top: 50%;
-        width: 100%;
+        width: fit-content;
         background-color: black;
         color: white;
         padding-left: 20px;
