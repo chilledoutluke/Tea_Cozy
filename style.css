@@ -37,6 +37,18 @@ a {
 .banner-img {
     padding-top: 56px;
     height: 700px;
+    width: 1200px;
     position: relative;
 }
 
+
+.center-text {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px
+}
