@@ -54,6 +54,14 @@ nav span {
 
 #mission {
   height: 700px;
-  background-image: url(./Images/img-mission-background.jpg);
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
 }
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
 
