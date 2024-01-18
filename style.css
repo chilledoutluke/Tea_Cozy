@@ -49,3 +49,11 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/* Mission Section */
+
+#mission {
+  height: 700px;
+  background-image: url(./Images/img-mission-background.jpg);
+}
+
