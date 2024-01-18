@@ -13,8 +13,9 @@ body {
     width: 100%;
     position: fixed;
     border-bottom: 1px solid seashell;
-    overflow: auto;
+    overflow: hidden;
     padding: 0;
+    top: 0;
 
 }
 .nav-logo-img {
@@ -25,12 +26,19 @@ body {
     display: flex;
 }
 
-a {
+.nav-list a {
     padding-right: 30px;
     text-decoration: underline;
     color: seashell;
+    float: left;
+    display: block;
+    text-align: center;
 
 }
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
 
 div.banner-img {
     position: relative;
