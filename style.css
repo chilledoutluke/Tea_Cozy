@@ -55,7 +55,7 @@ nav span {
 #mission {
   height: 700px;
   padding-top: 70px;
-  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*ss9qje*_ga*NDE1MDA3ODYxNS4xNjc5OTEyNzE5*_ga_3LRZM6TM9L*MTcwNTkxODg2NC4xNTEuMS4xNzA1OTE4ODk1LjI5LjAuMA..');
+  background-image: url(./Images/img-mission-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,4 +91,32 @@ nav span {
   padding: 5px;
   text-align: center;
   font-weight: bold;
+}
+
+/* Locations */
+
+.flex-container .locations {
+  padding: 5px;
+}
+
+#locations {
+  background-image: url(./Images/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
