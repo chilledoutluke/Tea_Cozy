@@ -120,3 +120,15 @@ nav span {
   flex-direction: column;
   justify-content: center;
 }
+
+/* Contact section */
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
+
