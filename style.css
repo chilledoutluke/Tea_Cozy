@@ -75,3 +75,13 @@ nav span {
   margin: auto;
   padding-top: 70px;
 }
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
